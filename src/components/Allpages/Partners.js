@@ -8,16 +8,16 @@ const Partners = () => {
         <div className="partners">Images comes here</div>
         <div className="partners-links">
           <div>
-            <a href="">Learning</a>
+            <a href="https://www.lipsum.com/">Learning</a>
           </div>
           <div>
-            <a href="">Technical</a>
+            <a href="https://www.lipsum.com/">Technical</a>
           </div>
           <div>
-            <a href=""> Business</a>
+            <a href="https://www.lipsum.com/"> Business</a>
           </div>
           <div>
-            <a href="">Sales Resoucres</a>
+            <a href="https://www.lipsum.com/">Sales Resoucres</a>
           </div>
           <div className="more" > More <AiOutlineRight/> </div>
         </div>
