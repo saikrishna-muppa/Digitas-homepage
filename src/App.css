@@ -36,3 +36,248 @@
     transform: rotate(360deg);
   }
 }
+
+.header-icons {
+  display: flex;
+  margin-left: auto;
+  /* margin-right: auto; */
+  justify-content: space-around;
+  max-width: 20%;
+}
+.twitter {
+  display: flex;
+  border: 1px solid;
+  max-width: 25%;
+  color: #61dafb;
+  border-radius: 4px;
+}
+.twitter > svg {
+  padding-top: 4px !important;
+}
+.facebook {
+  display: flex;
+  border: 1px solid;
+  border-radius: 4px;
+  max-width: 25%;
+  color: rgb(76, 76, 179);
+  border-radius: 4px;
+  background-color: #cce9f1;
+  font-size: large;
+}
+.facebook > svg {
+  padding-top: 4px !important;
+  font-size: large;
+}
+.one,
+.eight {
+  border: 0.5px solid black;
+  background-color: white;
+  color: rgb(48, 48, 160);
+  max-width: 10%;
+  padding-left: 20px;
+  text-align: center !important;
+}
+.bannner {
+  /* display: flex; */
+  background-color: rgb(168 189 208 / 46%);
+}
+.banner-text {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-right: auto; */
+  max-width: 50%;
+  margin-left: auto;
+  font-size: 17px;
+  margin-top: -39px;
+}
+.banner-text >.text{
+  margin-right: 20px;
+  padding-right: 10px;
+}
+.banner-text > span {
+  border-right: 1px solid;
+}
+.company-logo {
+  background-color: rgb(81 81 219);
+  justify-content: space-around;
+  color: white;
+  padding: 15px;
+  width: 20%;
+  font-size: large;
+  font-weight: 500;
+}
+.banner-navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(49, 49, 170);
+  margin-top: 35px;
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner-navigation > div {
+  color: white;
+  padding: 15px;
+  font-weight: 500;
+}
+.banner-navigation>.active{
+  background-color: white;
+  color: black;
+}
+
+.banner-navigation > div:hover {
+  background-color: white;
+  color: black;
+}
+
+.slider-card {
+  background-color: white;
+  color: #282c34;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slider-img-text {
+  /* position: absolute; */
+  display: flex;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -95px;
+}
+.slider-img-text > .overview {
+  background-color: rgb(193 74 193 / 95%);
+  color: white;
+  font-weight: 600;
+  align-self: center;
+  padding: 10px;
+  opacity: 0.9;
+  /* z-index: 1; */
+}
+.slider-img-text > .text {
+  background-color: black;
+  color: white;
+  max-width: 80%;
+  margin-left: auto;
+  opacity: 0.6;
+  /* z-index: 1; */
+}
+.events {
+  max-width: 33%;
+}
+.events-partners {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 66px;
+  max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.events-title,
+.products-title,
+.carres-title {
+  text-align: left;
+  font-size: x-large;
+}
+.events-text {
+  text-align: left;
+  max-width: 62%;
+}
+
+.partners {
+  border: 1px solid;
+  padding: 50px;
+}
+.partner-box-text {
+  display: flex;
+}
+.partners-links > div > a {
+  color: #000000c9;
+}
+.products-box {
+  border: 1px solid;
+  padding: 50px;
+  color: #482e95;
+}
+.products {
+  display: flex;
+}
+.more {
+  color: blue;
+  text-align: right;
+  margin-left: 50%;
+}
+.more > svg {
+  padding-top: 5px;
+}
+.close-div {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 80%;
+}
+svg.left,
+svg.right {
+  border: 1px solid;
+}
+svg.left:hover,
+svg.right:hover {
+  background-color: blue;
+  color: white;
+}
+::marker {
+  border: 1px solid;
+}
+p.card-text,.card-text {
+  color: blueviolet;
+  text-align: left;
+}
+div>.card {
+  border: 1px solid;
+  /* padding: 20px; */
+  width: 55%;
+}
+p {
+  text-align: left;
+}
+.primary-btn {
+  background: blue;
+  color: white;
+  padding: 20px;
+  float: left;
+}
+.secondary-btn{
+  padding: 20px;
+  float: left;
+}
+.cardheader{
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0f2204fc;
+  color: white;
+}.footer-title {
+  font-size: 23px;
+  text-align: left;
+  margin-top: 10px;
+}
+.text {
+  margin-top: 10px;
+  text-align: left;
+}
+.footer-down{
+  background-color: rgb(131 136 140 / 23%);
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+}
+.footer-down-text{
+  /* margin-left: 70px; */
+  border-right: 1px solid;
+  padding-left: 50px;
+  padding-right: 10px;
+  align-self: center;
+  
+}
